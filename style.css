@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 1.6rem;
+}
+
+aside h1 {
+    font-size: 6.4rem;
+    font-weight: 500;
+    line-height: 7.5rem;
+    text-align: left;
+}
+
+aside h1 span, main h2 span {
+    color: #FF5678;
+}
+
+main {
+    width: 60rem;
+    height: 52rem;
+    top: 8.5rem;
+    left: 48.6rem;
+    border-radius: 1.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 4.4rem 5.7rem;
+
+}
+
+main h2 {
+    width: 43rem;
+    font-size: 3.6rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+main .actions {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+main .actions a {
+    text-decoration: none;
+    font-size: 2.4rem;
+    height: 5.5rem;
+    background-color: #35E6E9;
+    border-radius: 1.2rem;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5.4rem;
+}
+
+main .actions a + a {
+    background-color: #FF5678;
+    margin-top: 4.8rem;
+}
+
+main footer {
+    text-align: center;
+}
+
+main footer p {
+    margin: 8rem 0 1rem 0;
+    font-size: 1.4rem;
+}
+
+main footer a {
+    color: black;
+    /* box-shadow: 0px 4px 4px 0px #00000040; */
+    font-size: 1.8rem;
+}
